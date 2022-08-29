@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100%;
+        }
+        
+        #aside {
+            padding: 50px;
+            border: 1px white solid;
+            background-color: aqua;
+            float: right;
+            width: 40%;
+        }
+        
+        #center {
+            text-align: center;
+            margin: 100px;
+        }
+        
+        .form {
+            width: 100;
+        }
+        
+        .alert-danger {
+            background-color: red;
+            color: aqua;
+        }
+        
+        .alert-success {
+            background-color: green;
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="aside">
+        <h1>Welcome to </h1>
+        <h2><span style="color: blue;">TRAK</span> labs</h2>
+        <h5>Login to your Account</h5>
+    </div>
+    <div id="center">
+        <h1>Login</h1>
+        <form id="signUp">
+
+
+            <div class="form">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div class="form">
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password">
+            </div>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+
+
+    </div>
+    <script src="Login.js"></script>
+</body>
+
+</html>
